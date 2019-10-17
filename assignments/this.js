@@ -29,7 +29,7 @@ const myTreeObj = {
     flora: 'Tree',
     whatSpecies: function(species) {
       console.log(`I am a ${this.flora} and my species is ${species} ${this.flora}`);
-      console.log(this);
+      //console.log(this);
     }
   };
   myTreeObj.whatSpecies('Oak');
@@ -44,7 +44,7 @@ function WelcomingFlora(greeter) {
     this.greeter = greeter;
     this.speak = function() {
       console.log(this.greeting + this.greeter);
-      console.log(this);
+      //console.log(this);
     };
   }
   
@@ -58,4 +58,4 @@ function WelcomingFlora(greeter) {
 // Principle 4
 // code example for Explicit Binding
 
-bush.speak.call(tree); tree.speak.apply(bush);
+bush.speak.call(tree);
