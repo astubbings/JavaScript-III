@@ -18,6 +18,7 @@ This challenge focuses on using the `this` keyword as well as getting comfortabl
 * [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 * [ ] Add your project manager as a reviewer on the pull-request
 * [ ] Your project manager will count the project as complete by merging the branch back into master.
+simple change for initial commit and pull req setup
 
 ## Assignment Set Up
 
